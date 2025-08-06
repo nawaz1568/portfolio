@@ -805,7 +805,7 @@
             font-size: 1.2rem;
         }
 
-        /* Contact Section - FIXED STYLES */
+        /* Contact Section */
         .contact {
             background: var(--gradient-1);
             color: var(--white);
@@ -830,16 +830,10 @@
             to { transform: rotate(360deg); }
         }
 
-        /* FIXED: Contact section title - ensure it's visible */
         .contact .section-title {
-            color: var(--white) !important;
+            color: var(--white);
             position: relative;
             z-index: 2;
-            background: none !important;
-            -webkit-background-clip: unset !important;
-            -webkit-text-fill-color: var(--white) !important;
-            background-clip: unset !important;
-            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
         }
 
         .contact .section-title::after {
@@ -852,7 +846,6 @@
             opacity: 0.95;
             position: relative;
             z-index: 2;
-            color: var(--white);
         }
 
         .contact-links {
@@ -1205,19 +1198,12 @@
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Let's Work Together</h2>
-            <p class="contact-desc">
-                I'm always interested in new opportunities and exciting projects. Let's connect and discuss how we can work together!
-            </p>
-            <div class="contact-links">
-                <a href="mailto:furkhannawaz7@gmail.com" class="contact-link">📧 Email Me</a>
-                <a href="https://www.linkedin.com/in/furkhan-nawaz-724485345" target="_blank" class="contact-link">💼 LinkedIn</a>
-                <a href="tel:9025376239" class="contact-link">📞 Call Me</a>
-            </div>
-        </div>
-    </section>
+ <section id="contact">
+  <h2>Let's Work Together</h2>
+  <p>Feel free to reach out for collaborations or just a friendly hello 👋</p>
+  <a href="mailto:your.email@example.com">your.email@example.com</a>
+</section>
+
 
     <script>
         // Loading animation
